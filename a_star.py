@@ -14,6 +14,8 @@ from time import sleep
 from random import randint
 
 
+
+
 class NodeType(Enum):
     NORMAL = 0
     START = 1
@@ -21,7 +23,7 @@ class NodeType(Enum):
     WAYPOINT = 3
 
 
-
+#i am putting a commnet Gaurav .
 
 class Node:
     def __init__(self, canvas, x, y, size):
